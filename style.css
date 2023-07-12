@@ -1,0 +1,133 @@
+.logo {
+    text-align: center;  
+  }
+  
+  .image {  /*image setup gaming*/
+    margin-right: ; 
+    width: 10%;
+  }
+  
+.titre{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    font-family:cursive;
+}
+
+.navbar {
+    background-color: #d9d9d9;
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    justify-content: center;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-family: cursive;
+  }
+
+  
+  .container { /*paragraphe setup gaming*/
+    display: flex;
+    font-family: cursive;
+    position: relative;
+    margin-left: 10%;
+}
+    .image-droite {
+        margin-left: 25%; 
+        width: 30%;
+        height: 20%;
+        border-radius: 10%;
+      }
+
+      .ligne-horizontale {
+        width: 100%; 
+        height: 2px; 
+        background-color: black; 
+        margin: 5px;
+      }
+
+      .ligne-horizontale1 {
+        width: 100%; 
+        height: 2px; 
+        background-color: black; 
+        margin: 5px;
+        display: none;
+      }
+.conteneur {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image10 {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image10 img {
+  width: 200px; 
+  height: auto; 
+}
+.image10 p{
+   text-align: center;
+        font-family: cursive;
+}
+
+@media only screen and (max-width: 767px) {
+  .image10 {
+    flex-basis: 100%;
+  }
+  .ligne-horizontale1 {
+        width: 100%; 
+        height: 2px; 
+        background-color: black; 
+        margin: 10px;
+        display: block;
+      }
+      .container { /*paragraphe setup gaming*/
+        display: flex;
+        font-family: cursive;
+        position: relative;
+        margin: 0;
+    } 
+    .image-droite {
+      margin-left: 25%; 
+      width: 50%;
+      height: 20%;
+      border-radius: 10%;
+      margin: 0;
+    }
+
+    .navbar {
+      flex-wrap: wrap;
+    }
+  
+    .navbar ul li {
+      flex-basis: 100%;
+      justify-content: center;
+    }
+  
+    .navbar-nav li {
+      margin: 5px;
+    }
+}
+  
